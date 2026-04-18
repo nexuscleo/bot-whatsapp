@@ -1,0 +1,11 @@
+# Dependências
+node_modules/
+
+# Configurações Sensíveis
+.env
+
+# Sessão do WhatsApp (Contém dados de login)
+.wwebjs_auth/
+
+# Logs e arquivos de dados locais
+mensagens_grupo.txt

@@ -1,0 +1,19 @@
+{
+  "name": "bot-whatsapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bot_sticker.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "qrcode-terminal": "^0.12.0",
+    "sharp": "^0.34.5",
+    "wa-sticker-formatter": "^1.6.0",
+    "whatsapp-web.js": "^1.34.6"
+  }
+}
