@@ -62,7 +62,19 @@ server.listen(port, () => {
 /**
  * CICLO DE VIDA E AUTENTICAÇÃO
  */
+/*
 client.on('qr', (qr) => {
+    qrcode.generate(qr, { small: true });
+    console.log('QR Code recebido. Escaneie com seu WhatsApp.');
+});
+*/
+
+client.on('qr', (qr) => {
+    // Imprime o código em texto puro para você copiar:
+    console.log('CÓDIGO PURO DO QR (Copie o texto abaixo):');
+    console.log(qr);
+
+    // Mantém a imagem no terminal caso funcione
     qrcode.generate(qr, { small: true });
     console.log('QR Code recebido. Escaneie com seu WhatsApp.');
 });
