@@ -1,5 +1,21 @@
+-> Iniciar bot com o windows
 npm install -g pm2
 npm install -g pm2-windows-startup
 pm2-startup install
 pm2 start bot_sticker.js --name "BotZap"
 pm2 save
+
+-> Gerenciar o bot ativo
+pm2 list -> Lista os bots ativos
+pm2 stop BotZap -> Para o bot
+pm2 restart BotZap -> Reinicia o bot
+pm2 delete BotZap -> Deleta o bot
+pm2 monit -> Monitora o bot
+pm2 startup get -> Verifica se o bot está configurado para iniciar com o windows
+pm2 startup disable -> Desabilita o bot de iniciar com o windows
+pm2 startup enable -> Habilita o bot de iniciar com o windows
+pm2 startup delete -> Deleta o bot de iniciar com o windows
+pm2 startup enable --all -> Habilita todos os bots de iniciar com o windows
+pm2 startup disable --all -> Desabilita todos os bots de iniciar com o windows
+pm2 startup delete --all -> Deleta todos os bots de iniciar com o windows
+pm2 startup list -> Lista todos os bots configurados para iniciar com o windows
