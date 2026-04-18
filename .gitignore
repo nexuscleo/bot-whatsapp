@@ -9,3 +9,9 @@ node_modules/
 
 # Logs e arquivos de dados locais
 mensagens_grupo.txt
+
+# Requisição
+requisicao.txt
+
+# Descrição
+descricao_bot.txt
