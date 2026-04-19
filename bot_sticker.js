@@ -46,7 +46,7 @@ const client = new Client({
 /**
  * SERVIDOR PARA O RENDER (Health Check)
  */
-const port = process.env.PORT || 3000; // 3000
+const port = process.env.PORT || 5500; // 3000
 const server = http.createServer((req, res) => res.end('Bot is running'));
 
 server.listen(port, () => {
