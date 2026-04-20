@@ -11,7 +11,7 @@ const http = require('http');
 const CONFIG = {
     LOG_FILE: 'mensagens_grupo.txt',
     STICKER_METADATA: {
-        name: "Bot @stk 2026",
+        name: "Bot Sticker Maker",
         author: "@NexusCleo"
     },
     GROUPS: {
