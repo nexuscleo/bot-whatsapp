@@ -107,7 +107,7 @@ client.on('message', async (msg) => {
 
     // --- ÁREA 2: COMANDOS DE UTILITÁRIOS (STICKERS) ---
     const command = msg.body.toLowerCase();
-    if (command === '@stk') {
+    if (command === '/stk') {
         if (isGroup && !CONFIG.GROUPS.STICKERS.includes(chatId)) return;
         await handleStickerCommand(msg);
     }
