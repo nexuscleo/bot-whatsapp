@@ -169,7 +169,7 @@ async function handleStickerCommand(msg) {
                 stickerAuthor: CONFIG.STICKER_METADATA.author
             });
         } else {
-            await msg.reply('Por favor, envie uma imagem ou responda a uma com o comando *@stk*.');
+            await msg.reply('Por favor, envie uma imagem ou responda a uma com o comando */stk*.');
         }
     } catch (error) {
         console.error('Erro ao criar figurinha:', error);
